@@ -1,0 +1,51 @@
+/*PERSONAJES*/
+.personajes {
+    display: $d-flex;
+    flex-direction: column;
+    justify-content: $content;
+    align-items: $content;
+    font-size: 30px;
+    padding: 30px;
+
+}
+
+.personajes__title {
+    text-transform: uppercase;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.personajes__container {
+    display: $d-flex;
+    flex-wrap: wrap;
+    justify-content: $content;
+    align-items: $content;
+    gap: 20px;
+    width: 100%;
+}
+
+.personajes__container__content {
+    background-color: $main-color;
+    width: 30%;
+    height: 100%;
+}
+
+.personajes__container__content-img {
+    width: 100%;
+    height: 400px;
+}
+
+.personajes__container__content-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.personajes__container__content__info {
+    display: $d-flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 400px;
+    max-height: 100%;
+    font-size: 24px;
+}

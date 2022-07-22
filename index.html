@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK ICONS FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/da2fde033e.js" crossorigin="anonymous"></script>
+    <!--LINK TO BOOTSTRAP CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--LINK TO CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Final Fantasy XII </title>
+</head>
+
+<body>
+    <header>
+        <!--NAV-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Final Fantasy XII </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end  " tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header bg-dark ">
+                        <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Final Fantasy XII </h5>
+                        <button type="button" class="btn-close text-light" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg-dark ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#personajes">Personajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#videos">Videos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--HERO SECTION-->
+        <article class="hero" id="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Final Fantasy XII </h1>
+                <h3 class="parrafo-principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae porro
+                    ullam non odit earum laborum officia veritatis? Consequuntur, voluptates harum?</h3>
+                <div class="hero__content__medias">
+                    <button class="btn btn-dark">Saber mas.</button>
+                    <hr>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </article>
+    </header>
+
+    <!--MAIN SECTION-->
+    <main>
+
+        <!--ABOUT SECTION-->
+        <section class="about" id="about">
+            <article class="about__container">
+                <p class="about__container__info">
+                    Final Fantasy XII es la decimosegunda entrega de la saga principal de Final Fantasy, siendo también
+                    parte de la Ivalice Alliance (Alianza Ivalice). El juego fue lanzado en Japón el 16 de Marzo del
+                    2006 y en Norteamérica el 31 de Octubre del mismo año. El 23 de Febrero, fue lanzado para las
+                    regiones de Europa y Australia en el año 2007. A diferencia del antecesor Final Fantasy XI, que sólo
+                    se podía jugar en línea, Final Fantasy XII es un RPG de un solo jugador con personajes
+                    predeterminados. Al igual que Final Fantasy IX, XII también regresó a las raíces más "medievales" de
+                    los Final Fantasy originales, en contraste con Final Fantasy VII, Final Fantasy VIII, y Final
+                    Fantasy X, que presentaban mundos "modernos" y de "ciencia ficción".
+                </p>
+
+                <div class="about__container__img">
+                    <img src="https://i.ytimg.com/vi/25M5rVtrWYI/maxresdefault.jpg" alt="about ">
+                </div>
+
+            </article>
+        </section>
+
+        <section class="personajes bg-dark" id="personajes">
+
+            <h2 class="personajes__title text-light">Personajes</h2>
+
+            <article class="personajes__container">
+                <!--vaan -->
+                <div class="personajes__container__content">
+                    <div class="personajes__container__content-img">
+                        <img src="https://geemugeemu.com/wp-content/uploads/2015/11/DFF-Arcade-Vaan-PV_11-23-15.jpg"
+                            alt="vaan">
+                    </div>
+                    <div class="personajes__container__content__info">
+                        <h3 class="personajes__content-title">Vaan</h3>
+                        <p>Es un joven huérfano de Rabanasta que guarda rencor al imperio de Arcadia por la muerte de su
+                            hermano Reks y por la subyugación de su hogar. Sueña con ser un pirata del aire con un barco
+                            volador propio para viajar libremente por Ivalice. </p>
+                    </div>
+
+                </div>
+
+                <!--Balthier-->
+                <div class="personajes__container__content">
+                    <div class="personajes__container__content-img">
+                        <img src="https://puregaming.es/wp-content/uploads/2017/07/balthier.jpg" alt="Balthier">
+                    </div>
+                    <div class="personajes__container__content__info">
+                        <h3 class="personajes__content-title">Balthier</h3>
+                        <p>Es un hombre alto, con pelo corto y rubio y ademas tiene patillas. Viste una chaqueta dorada,
+                            con
+                            varios bordados, sobre una camisa blanca de mangas cortas, un pantalón de cuero negro, unas
+                            tobilleras del mismo color y unas sandalias de acero. </p>
+                    </div>
+                </div>
+
+                <!-- penelo-->
+                <div class="personajes__container__content">
+                    <div class="personajes__container__content-img">
+                        <img src="https://puregaming.es/wp-content/uploads/2017/07/penelo_looks_in_distance_ff12_by_renzukuken.jpg"
+                            alt="penelo">
+                    </div>
+                    <div class="personajes__container__content__info">
+                        <h3 class="personajes__content-title">Penelo</h3>
+                        <p>Este personaje nació en la República de Landis junto a su hermano gemelo Noah. Después de que
+                            el
+                            Imperio consiguiera hacerse con su pueblo Natal, Basch huye a Dalmasca donde se une a las
+                            fuerzas militares.</p>
+                    </div>
+                </div>
+                <!--Fran-->
+                <div class="personajes__container__content">
+                    <div class="personajes__container__content-img">
+                        <img src="https://puregaming.es/wp-content/uploads/2017/07/fran_ff12_by_renzukuken.gif"
+                            alt="litch">
+                    </div>
+                    <div class="personajes__container__content__info">
+                        <h3 class="personajes__content-title">Fran</h3>
+                        <p>El verdadero nombre de este personaje es Ffamran Mid Bunasa, hijo del Doctor loco Cid. Este
+                            personaje fue un poderoso juez del Imperio en el pasado, un puesto que su padre le había
+                            conseguido. Pero Balthier no aspiraba a esto y estaba muy cansado de la locura de su padre y
+                            de
+                            su obsesión por lo que decide escapar y ser libre.</p>
+                    </div>
+                </div>
+
+                <!--ash-->
+                <div class="personajes__container__content">
+                    <div class="personajes__container__content-img">
+                        <img src="https://puregaming.es/wp-content/uploads/2017/07/ffxii-ashe.jpg" alt="ash">
+                    </div>
+                    <div class="personajes__container__content__info">
+                        <h3 class="personajes__content-title">Ash</h3>
+                        <p>Cuando aparece este personaje por primera vez se hace llamar Amalia para ocultar su verdadera
+                            identidad de princesa Ashelia B’nargin Dalmasca. Tiene 19 años y su pelo es de color rubio
+                            ceniza. Como princesa tiene como objetivo liberar a su reino de la ocupación de Arcadia.
+                            Junto a
+                            su padre, en la guerra, muere su reciente esposo el príncipe Rassler. </p>
+                    </div>
+                </div>
+
+                <!--bash-->
+                <div class="personajes__container__content">
+                    <div class="personajes__container__content-img">
+                        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d083ca2-a880-42ec-aa89-5ae2c490a4e8/d2ju4bf-39cfe96e-4920-40a1-899f-a50949ee01cc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJkMDgzY2EyLWE4ODAtNDJlYy1hYTg5LTVhZTJjNDkwYTRlOFwvZDJqdTRiZi0zOWNmZTk2ZS00OTIwLTQwYTEtODk5Zi1hNTA5NDllZTAxY2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.op3i9mlLN3eJJypjpqyR56Hx8hcCQR6rM6nQ0nELWk0"
+                            alt="bash">
+                    </div>
+                    <div class="personajes__container__content__info">
+                        <h3 class="personajes__content-title">Bash</h3>
+                        <p>Este personaje nació en la República de Landis junto a su hermano gemelo Noah. Después de que
+                            el
+                            Imperio consiguiera hacerse con su pueblo Natal, Basch huye a Dalmasca donde se une a las
+                            fuerzas militares.
+                        </p>
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
+
+        <!--VIDEOS  -->
+        <section class="video" id="videos">
+
+            <h2 class="video__title">Videos</h2>
+
+            <article class="video__content">
+                <iframe src="https://www.youtube.com/embed/e5Wksb41iFk" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <iframe src="https://www.youtube.com/embed/2IYu8ca8lus" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </article>
+
+        </section>
+    </main>
+    <!-- FOOTER -->
+
+    <footer class="bg-dark">
+        <h4>Web hecha para el after de sass.</h4>
+    </footer>
+
+    <!--SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.bg-dark {
+  background-color: #212529; }
+
+.text-light {
+  color: #eee; }
+
+.btn {
+  padding: 10px;
+  background: #212529;
+  color: #eee; }
+
+/*NAV*/
+.nav-link {
+  background-image: linear-gradient(white, white);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  transition: 0.4s; }
+  .nav-link:hover {
+    background-image: linear-gradient(white, white);
+    background-size: 100% 3px; }
+
+/*HERO SECTION*/
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(../img/bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 30px; }
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40%;
+    height: 100%;
+    color: white; }
+    .hero__content__medias {
+      display: flex;
+      width: 60%;
+      justify-content: space-between;
+      align-items: center; }
+      .hero__content__medias hr {
+        height: 3px;
+        width: 30%; }
+      .hero__content__medias .fa-brands {
+        color: #212529;
+        font-size: 20px;
+        transition: 0.3s; }
+      .hero__content__medias .fa-brands:hover {
+        background-color: #212529;
+        color: white;
+        border-radius: 100%;
+        padding: 5px; }
+
+.hero img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s; }
+
+.hero img:hover {
+  box-shadow: 10px -10px 0px 5px rgba(0, 0, 0, 0.75); }
+
+/*HISTORIA */
+.about__container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%; }
+
+.about__container__info {
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 30px; }
+
+.about__container__img {
+  width: 50%; }
+
+.about__container__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(50%);
+  transition: .3s; }
+
+.about__container__img img:hover {
+  filter: grayscale(0); }
+
+/*PERSONAJES*/
+.personajes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 30px; }
+
+.personajes__title {
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 40px; }
+
+.personajes__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%; }
+
+.personajes__container__content {
+  background-color: white;
+  width: 30%;
+  height: 100%; }
+
+.personajes__container__content-img {
+  width: 100%;
+  height: 400px; }
+
+.personajes__container__content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.personajes__container__content__info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 400px;
+  max-height: 100%;
+  font-size: 24px; }
+
+/*VIDEOS*/
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.video__content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+.video__content iframe {
+  width: 45%;
+  height: 500px; }
+
+/*FOOTER*/
+footer {
+  height: 100px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; }
+
+/*===========RESPONSIVETABLET=========*/
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .hero__content__medias {
+    width: 100%; }
+  .personajes__container__content {
+    width: 46%; } }
+
+/*===========RESPONSIVE TABLET XL=========*/
+@media only screen and (min-width: 691px) and (max-width: 899px) {
+  .hero__content__medias {
+    width: 100%; }
+  .personajes__container__content {
+    width: 95%; }
+  .about__container {
+    flex-direction: column; }
+  .about__container__info {
+    width: 100%; }
+  .about__container__img {
+    width: 100%; } }
+
+/*===========RESPONSIVE TABLET XL=========*/
+@media only screen and (min-width: 300px) and (max-width: 690px) {
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; }
+  .hero img {
+    display: none; }
+  .hero__content {
+    width: 100%;
+    color: white; }
+  .hero__content__medias {
+    width: 100%; }
+  .hero__content__medias hr {
+    display: none; }
+  .fa-brands {
+    color: white;
+    font-size: 20px;
+    transition: .3s; }
+  .personajes {
+    padding: 10px; }
+  .personajes__container__content {
+    width: 95%; }
+  .about__container {
+    flex-direction: column; }
+  .about__container__info {
+    width: 100%; }
+  .about__container__img {
+    width: 100%; }
+  .video__content {
+    flex-direction: column;
+    gap: 5px; }
+  .video__content iframe {
+    width: 100%; }
+  footer {
+    text-align: center; } }

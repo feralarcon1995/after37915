@@ -1,0 +1,73 @@
+/*NAV*/
+
+.nav-link {
+    background-image: linear-gradient($main-color, $main-color);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: 0.4s;
+
+    &:hover {
+        background-image: linear-gradient($main-color, $main-color);
+        background-size: 100% 3px;
+    }
+}
+
+/*HERO SECTION*/
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(../img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 40%;
+        height: 100%;
+        color: $main-color;
+
+        &__medias {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+            align-items: center;
+
+            & hr {
+                height: 3px;
+                width: 30%;
+            }
+
+            .fa-brands {
+                color: #212529;
+                font-size: 20px;
+                transition: 0.3s;
+            }
+
+            .fa-brands:hover {
+                background-color: #212529;
+                color: $main-color;
+                border-radius: 100%;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+.hero img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.hero img:hover {
+    box-shadow: 10px -10px 0px 5px rgba(0, 0, 0, 0.75);
+}

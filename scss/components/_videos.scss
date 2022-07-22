@@ -1,0 +1,20 @@
+/*VIDEOS*/
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.video__content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.video__content iframe {
+    width: 45%;
+    height: 500px;
+}

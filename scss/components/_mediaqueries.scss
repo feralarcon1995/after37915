@@ -1,0 +1,114 @@
+/*===========RESPONSIVETABLET=========*/
+
+@media only screen and (min-width: 900px) and (max-width:1024px) {
+
+    .hero__content__medias {
+        width: 100%;
+    }
+
+    .personajes__container__content {
+        width: 46%;
+    }
+
+}
+
+
+/*===========RESPONSIVE TABLET XL=========*/
+
+@media only screen and (min-width: 691px) and (max-width:899px) {
+
+    .hero__content__medias {
+        width: 100%;
+    }
+
+    .personajes__container__content {
+        width: 95%;
+    }
+
+
+    .about__container {
+        flex-direction: column;
+    }
+
+    .about__container__info {
+        width: 100%;
+    }
+
+    .about__container__img {
+        width: 100%;
+    }
+
+}
+
+
+/*===========RESPONSIVE TABLET XL=========*/
+
+@media only screen and (min-width: 300px) and (max-width:690px) {
+
+    .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.905)), url(../img/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero__content {
+        width: 100%;
+        color: $main-color;
+    }
+
+    .hero__content__medias {
+        width: 100%;
+    }
+
+    .hero__content__medias hr {
+        display: none;
+    }
+
+    .fa-brands {
+        color: $main-color;
+        font-size: 20px;
+        transition: .3s;
+    }
+
+    .personajes {
+        padding: 10px;
+    }
+
+    .personajes__container__content {
+        width: 95%;
+    }
+
+
+    .about__container {
+        flex-direction: column;
+    }
+
+    .about__container__info {
+        width: 100%;
+    }
+
+    .about__container__img {
+        width: 100%;
+    }
+
+    .video__content {
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .video__content iframe {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
