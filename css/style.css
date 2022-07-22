@@ -16,13 +16,13 @@
 
 /*NAV*/
 .nav-link {
-  background-image: linear-gradient(white, white);
+  background-image: linear-gradient(#ffacf5, #ffacf5);
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: 0% 3px;
   transition: 0.4s; }
   .nav-link:hover {
-    background-image: linear-gradient(white, white);
+    background-image: linear-gradient(#ffacf5, #ffacf5);
     background-size: 100% 3px; }
 
 /*HERO SECTION*/
@@ -42,7 +42,7 @@
     align-items: flex-start;
     width: 40%;
     height: 100%;
-    color: white; }
+    color: #ffacf5; }
     .hero__content__medias {
       display: flex;
       width: 60%;
@@ -57,7 +57,7 @@
         transition: 0.3s; }
       .hero__content__medias .fa-brands:hover {
         background-color: #212529;
-        color: white;
+        color: #ffacf5;
         border-radius: 100%;
         padding: 5px; }
 
@@ -119,7 +119,7 @@
   width: 100%; }
 
 .personajes__container__content {
-  background-color: white;
+  background-color: #ffacf5;
   width: 30%;
   height: 100%; }
 
@@ -164,7 +164,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white; }
+  color: #ffacf5; }
 
 /*===========RESPONSIVETABLET=========*/
 @media only screen and (min-width: 900px) and (max-width: 1024px) {
@@ -198,13 +198,13 @@ footer {
     display: none; }
   .hero__content {
     width: 100%;
-    color: white; }
+    color: #ffacf5; }
   .hero__content__medias {
     width: 100%; }
   .hero__content__medias hr {
     display: none; }
   .fa-brands {
-    color: white;
+    color: #ffacf5;
     font-size: 20px;
     transition: .3s; }
   .personajes {
